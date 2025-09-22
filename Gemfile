@@ -1,8 +1,10 @@
+source "https://rubygems.org"
+
 ruby '3.4.3'
 
 gem 'rails', '~> 8.0'
 gem 'bootsnap', '~> 1.18', require: false
-gem "pg", ">= 0.18", "< 2.0", platforms: [:ruby, :mri]
+gem "pg", ">= 0.18", "< 2.0", platforms: [:ruby, :mri, :windows]
 gem 'puma', '~> 7.0.3'
 gem 'sassc-rails', '~> 2.1'
 gem 'coffee-rails', '~> 5.0.0'
