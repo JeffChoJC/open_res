@@ -171,7 +171,7 @@ GEM
     pry-rails (0.3.11)
       pry (>= 0.13.0)
     public_suffix (6.0.2)
-    puma (4.3.12)
+    puma (5.6.9)
       nio4r (~> 2.0)
     racc (1.8.1)
     rack (2.2.17)
@@ -295,7 +295,7 @@ DEPENDENCIES
   pg (>= 0.18, < 2.0)
   pg_search
   pry-rails
-  puma (~> 4.3)
+  puma (~> 5.6)
   rails (~> 5.2.3)
   rails_12factor
   sass-rails (~> 5.0)
