@@ -45,6 +45,6 @@
   },
   "homepage": "https://github.com/JeffChoJC/full_stack_project#readme",
   "devDependencies": {
-    "css-loader": "^2.1.1"
+    "css-loader": "^7.1.2"
   }
 }
