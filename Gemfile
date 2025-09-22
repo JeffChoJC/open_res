@@ -2,7 +2,7 @@ ruby '3.4.3'
 
 gem 'rails', '~> 8.0'
 gem 'bootsnap', '~> 1.18', require: false
-gem 'pg', '>= 0.18', '< 2.0'
+gem "pg", ">= 0.18", "< 2.0", platforms: [:ruby, :mri]
 gem 'puma', '~> 7.0.3'
 gem 'sassc-rails', '~> 2.1'
 gem 'coffee-rails', '~> 5.0.0'
