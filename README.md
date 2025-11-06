@@ -31,7 +31,7 @@ Users can search for multiple `keyword`s against multiple restaurant data column
 <img src="./readme_images/search.gif">
 
 ## User-Authorization:
-OpenRes features backend auth using BCrypt for password hashing purposes. Logged in user state is persisted via cookies unless deliberately signed out. Email addresses used to sign up are saved to the rails backend with associated passwor digests where uniqueness is ensured by database and model restraints.
+OpenRes features backend auth using BCrypt for password hashing purposes. Logged in user state is persisted via cookies unless deliberately signed out. Email addresses used to sign up are saved to the rails backend with associated password digests where uniqueness is ensured by database and model restraints.
 
 ## Reservations:
 Users can select date, time, and party size and OpenRes will generate a list of restaurants with available reservations closest to the selected options.
